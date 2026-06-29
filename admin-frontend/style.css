@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, Arial, sans-serif;
+}
+
+body {
+    background: #f4f6f8;
+    color: #2c3e50;
+}
+
+header {
+    background: #e84393;
+    color: #fff;
+    padding: 16px 24px;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 16px;
+}
+
+.block {
+    background: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .06);
+}
+
+h2 {
+    margin-bottom: 14px;
+    font-size: 18px;
+}
+
+h3 {
+    margin: 18px 0 10px;
+    font-size: 15px;
+    color: #777;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+button {
+    background: #e84393;
+    color: #fff;
+    border: none;
+    padding: 11px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background: #d63384;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background: #fafafa;
+    border-radius: 8px;
+    border: 1px solid #eee;
+}
+
+.card-info {
+    font-size: 14px;
+}
+
+.card-meta {
+    font-size: 12px;
+    color: #888;
+    margin-top: 4px;
+}
+
+.btn-del {
+    background: #ff6b6b;
+    padding: 6px 12px;
+    font-size: 13px;
+}
+
+.btn-del:hover {
+    background: #e74c3c;
+}
+
+.empty {
+    color: #aaa;
+    font-size: 14px;
+    padding: 8px;
+}
+
+a {
+    color: #e84393;
+    text-decoration: none;
+}

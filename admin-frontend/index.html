@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Флора — Админ-панель</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>🌸 Флора — Управление</h1>
+    </header>
+    <main>
+        <section class="block">
+            <h2>Добавить позицию в ассортимент</h2>
+            <form id="product-form">
+                <input type="text" id="p-name" placeholder="Название" required>
+                <input type="text" id="p-category" placeholder="Категория">
+                <input type="number" id="p-price" placeholder="Цена" step="0.01">
+                <textarea id="p-desc" placeholder="Описание"></textarea>
+                <button type="submit">Добавить</button>
+            </form>
+            <h3>Текущий ассортимент</h3>
+            <div id="products-list" class="list"></div>
+        </section>
+
+        <section class="block">
+            <h2>Лиды и контакты</h2>
+            <div id="leads-list" class="list"></div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+
+</html>
